@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<widget id="FillCurrentDateTimeString.widget.FillCurrentDateTimeString" needsEntityContext="true" offlineCapable="true" xmlns="http://www.mendix.com/widget/1.0/">
+    <name>FillCurrentDateTimeString</name>
+    <description>The description of this widget.</description>
+
+    <icon />
+
+    <properties>
+        <property key="datetimeAttribute" type="attribute" required="true" defaultValue="">
+            <caption>TargetAttribute</caption>
+            <category>Behaviour</category>
+            <description>String attribute to which the current date time is written</description>
+            <attributeTypes>
+				<attributeType name="String" />
+			</attributeTypes>
+        </property>
+        <property key="datetimeFormat" type="string" required="true" defaultValue="">
+            <caption>Format</caption>
+            <category>Behaviour</category>
+            <description>Datetime format to be used</description>
+        </property>
+    </properties>
+</widget>
